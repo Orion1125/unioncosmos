@@ -1470,7 +1470,8 @@ dependencies = [
 name = "arbitrum-types"
 version = "0.0.0"
 dependencies = [
- "alloy",
+ "alloy-sol-types",
+ "hex-literal",
  "solidity-slot",
  "unionlabs-primitives",
 ]
@@ -2926,7 +2927,7 @@ dependencies = [
 name = "bob-verifier"
 version = "0.0.0"
 dependencies = [
- "alloy",
+ "alloy-sol-types",
  "bob-light-client-types",
  "evm-storage-verifier",
  "hex",
@@ -4570,7 +4571,8 @@ dependencies = [
 name = "cw20-token-minter"
 version = "0.0.0"
 dependencies = [
- "alloy",
+ "alloy-primitives",
+ "alloy-sol-types",
  "cosmwasm-schema 2.2.2",
  "cosmwasm-std 2.2.2",
  "cw-storage-plus 2.0.0",
@@ -5403,7 +5405,7 @@ dependencies = [
 name = "ethereum-light-client"
 version = "0.0.0"
 dependencies = [
- "alloy",
+ "alloy-sol-types",
  "ark-bls12-381 0.5.0",
  "ark-ec 0.5.0",
  "ark-serialize 0.5.0",
@@ -6952,7 +6954,8 @@ dependencies = [
 name = "ibc-union"
 version = "0.0.0"
 dependencies = [
- "alloy",
+ "alloy-primitives",
+ "alloy-sol-types",
  "bincode 2.0.1",
  "cosmwasm-schema 2.2.2",
  "cosmwasm-std 2.2.2",
@@ -11546,7 +11549,7 @@ dependencies = [
 name = "scroll-codec"
 version = "0.0.0"
 dependencies = [
- "alloy",
+ "alloy-sol-types",
  "hex-literal",
  "sha3 0.10.8",
  "thiserror 2.0.12",
@@ -14050,7 +14053,8 @@ dependencies = [
 name = "ucs03-zkgm"
 version = "0.0.0"
 dependencies = [
- "alloy",
+ "alloy-primitives",
+ "alloy-sol-types",
  "cosmwasm-schema 2.2.2",
  "cosmwasm-std 2.2.2",
  "cw-multi-test",
@@ -14059,7 +14063,6 @@ dependencies = [
  "cw20-base",
  "cw20-token-minter",
  "embed-commit",
- "ethabi",
  "frissitheto",
  "hex",
  "hex-literal",
@@ -14099,7 +14102,8 @@ dependencies = [
 name = "ucs06-funded-dispatch"
 version = "0.0.0"
 dependencies = [
- "alloy",
+ "alloy-primitives",
+ "alloy-sol-types",
  "cosmwasm-schema 2.2.2",
  "cosmwasm-std 2.2.2",
  "cw-storage-plus 2.0.0",
@@ -14775,7 +14779,7 @@ dependencies = [
 name = "voyager-client-module-cometbls"
 version = "0.0.0"
 dependencies = [
- "alloy",
+ "alloy-sol-types",
  "ark-bn254",
  "ark-serialize 0.4.2",
  "bcs 0.1.6",
@@ -14850,7 +14854,7 @@ dependencies = [
 name = "voyager-client-module-state-lens-ics23-ics23"
 version = "0.0.0"
 dependencies = [
- "alloy",
+ "alloy-sol-types",
  "embed-commit",
  "futures",
  "jsonrpsee",
@@ -14873,7 +14877,7 @@ dependencies = [
 name = "voyager-client-module-state-lens-ics23-mpt"
 version = "0.0.0"
 dependencies = [
- "alloy",
+ "alloy-sol-types",
  "beacon-api-types",
  "embed-commit",
  "enumorph",
@@ -14900,7 +14904,7 @@ dependencies = [
 name = "voyager-client-module-state-lens-ics23-smt"
 version = "0.0.0"
 dependencies = [
- "alloy",
+ "alloy-sol-types",
  "embed-commit",
  "enumorph",
  "ethereum-light-client-types",
