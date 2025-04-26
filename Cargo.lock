@@ -6946,8 +6946,10 @@ name = "ibc-solidity"
 version = "0.0.0"
 dependencies = [
  "alloy",
+ "ibc-union-spec",
  "schemars",
  "serde",
+ "thiserror 2.0.12",
 ]
 
 [[package]]
@@ -6956,7 +6958,6 @@ version = "0.0.0"
 dependencies = [
  "alloy-primitives",
  "alloy-sol-types",
- "bincode 2.0.1",
  "cosmwasm-schema 2.2.2",
  "cosmwasm-std 2.2.2",
  "depolama",
@@ -7009,7 +7010,6 @@ dependencies = [
  "alloy-sol-types",
  "bincode 2.0.1",
  "enumorph",
- "ibc-solidity",
  "ibc-union-spec",
  "num-traits",
  "schemars",
