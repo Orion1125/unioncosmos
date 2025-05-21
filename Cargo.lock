@@ -18973,7 +18973,7 @@ dependencies = [
  "ibc-union-spec",
  "jsonrpsee",
  "macros",
- "move-core-types 0.0.4 (git+https://github.com/unionlabs/aptos-core)",
+ "move-core-types 0.0.4 (git+https://github.com/mystenlabs/sui)",
  "serde",
  "sha3 0.10.8",
  "shared-crypto",
